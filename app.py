@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load saved objects
-model = joblib.load("LR_model.pkl")
+model = joblib.load("lr_model.pkl")
 encoder = joblib.load("onehotencoder.pkl")
 scaler = joblib.load("scaler.pkl")
 
